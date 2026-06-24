@@ -19,7 +19,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://zerodha-clone-1-db7v.onrender.com",
+    origin: [
+        "https://zerodha-clone-1-db7v.onrender.com",
+        "https://zerodha-clone-2-4lsa.onrender.com"
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
