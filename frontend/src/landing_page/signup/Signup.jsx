@@ -48,7 +48,7 @@ function Signup() {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:3002/signup",
+        "https://zerodha-clone-p7r3.onrender.com/signup",
         {
           ...inputValue,
         },

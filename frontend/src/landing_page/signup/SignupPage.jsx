@@ -21,7 +21,7 @@ function SignupPage() {
 
       try {
         const { data } = await axios.post(
-          "http://localhost:3002/userVerification",
+          "https://zerodha-clone-p7r3.onrender.com/userVerification",
           {},
           { withCredentials: true }
         );
